@@ -6,33 +6,43 @@
     <title>My first homework assignment!</title>
 
     <!--LINKING CSS-->
-    <link rel="" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    <!--LINKING CSS RESET-->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    
 
 </head>
 
 </html>
 
 <body>
-    <header>
+<div class="container">
+<header>
         <h1>Jonathan Roldan</h1>
-    </header>
 
-    <div class="container">
+    <section id="navigation">
 
-        <section id="navigation">
+            <div class="portfolio">
+                <a href="#">Portfolio</a>
+            </div>
+            <div class="contact">
+                <a href="#">Contact</a>
+            </div>
+            <div class="about">
+                <a href="#">About<a/>
+            </div>
+            
+    </section>
+ </header>
 
-            <ul>
-                <li><strong><a href="#">About<a/></strong></li>
-                <li><strong><a href="#">Contact</a></strong></li>
-                <li><strong><a href="#">Portfolio</a></strong></li>
-            </ul>
-
-        </section>
+    
 
         <section id="bio">
 
             <h2> About me</h2>
-
+            
+            <img id="bioimg" src="assets/images/400X200.gif" alt="default">
+            
             <p> I was introduced to computers at a very young age for my generation, tampering with hardware
                 at the age of 5 I was able to absorb that information fairly quickly. My goal by the end of this
                 class is to have the Web Development piece catching traction and eventually head into Mobile Software 
@@ -40,9 +50,16 @@
                 after in the past and I am confident that this adventure will be no different. 
             </p>
 
+            
         </section>
 
-        <p>Copyright</p>
+        <section id="copyright">
+
+            <p>Copyright</p>
+
+        </section>
+
         
+
     </div>
 </body>
